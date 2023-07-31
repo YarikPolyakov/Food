@@ -1,3 +1,6 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
 .hs{
     display: flex;
 }
@@ -7,6 +10,12 @@
     width: 25px;
     height: 25px;
 
+}
+.ff button{
+    border-radius: 43px;
+    background: #34C759;
+    border: none;
+    padding: 25px 57px;
 }
 .hs p{
     margin-top: 45px;
@@ -30,10 +39,25 @@
     font-size: 14px;
     line-height: 90px;
 }
+.textt{
+    padding-bottom: 95px;
+}
+.textt h1{
+    margin-top: 105px;
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 200% */
+letter-spacing: 6px;
+}
 .vse{
     background: url("salat.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top center;
+    
 }
 .watch p{
     color: white;
@@ -65,15 +89,18 @@
     text-align: center;
 }
 .text button{
-    /* Rectangle */
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+
 
 background: #34C759;
 border-radius: 43px;
-padding: 20px;
+color: var(--black, #1A1A1A);
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.6px;
 }
 .m ul li{
     color: white;
@@ -202,22 +229,83 @@ text-transform: capitalize;
 .h{
     max-width: 56px;
 }
+.pick{
+    color: #D9D9D9;
+text-align: center;
+font-family: 'Inter';
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+text-transform: capitalize;
 
-.ttt{
-    font-family: 'Helvetica Neue';
+}
+.carts-images .in{
+    border-radius: 6px;
+background: #252525;
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+margin-right: 30px;
+margin-bottom: 30px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 34px;
+}
+.carts-images .b img{
+    float: left;
+}
+.carts-images .b{
+    display: flex;
+    align-items: flex-end;
+}
+.carts-images .b button{
+    justify-content: flex-end;
+    color: var(--dark-gray, #252525);
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 10px;
 font-style: normal;
 font-weight: 900;
-font-size: 80px;
-line-height: 90px;
-/* identical to box height, or 250% */
-
-text-align: center;
-letter-spacing: 0.2em;
-text-transform: capitalize;
-opacity: 0.15;
+line-height: 40px; /* 400% */
+letter-spacing: 2px;
+text-transform: uppercase;
+background-color: #34C759;
+padding: 2px 32px;
 position: relative;
-top: -155px;
-color: #D9D9D9;
+left: 120px;
+bottom: -10px;
+}
+.carts-images .dish{
+    margin-top: 120px;
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+}
+
+.carts-images h2{
+    color: #D9D9D9;
+font-family: Helvetica Neue;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 93.75% */
+margin-top: 29px;
+}
+.ttt{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 76px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px; /* 250% */
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
 
 }
 .in{ 
@@ -242,9 +330,7 @@ border-radius: 30px;
 .in .b{ 
     display: flex;
 }
-.in .b button{
-    max-height: 36px;
-}
+
 .chef h1{
     margin-top: 120px;
     margin-bottom: 68px;
@@ -253,12 +339,15 @@ border-radius: 30px;
 }
 .chef .m {
     display: flex;
+    margin-bottom: 30px;
 }
 .chef .n {
     display: flex;
+    margin-bottom: 30px;
 }
 .chef .x { 
     display: flex;
+    margin-bottom: 30px;
 }
 .teg p{
     color: white;
